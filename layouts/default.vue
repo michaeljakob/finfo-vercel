@@ -6,8 +6,11 @@
         class="mx-auto w-16"
       />
     </nuxt-link>
-
-    <nuxt />
+    
+    <div class="text-center max-w-2xl mx-auto">
+      <nuxt />
+    </div>
+    
   </div>
 </template>
 <script>

@@ -1,13 +1,13 @@
 <template>
   <div
-    class="text-center"
+    class=""
   >
     <div class="px-2">
 
       <Signup
         class="py-8" />
 
-      <div class="sample">
+      <div class="text-center inline-block">
         <h2 class="text-2xl font-bold text-primary">Jeden Morgen um 6:00<br>Nur das Wichtigste</h2>
         <!-- <img
           class="my-4"
