@@ -23,8 +23,8 @@
               type="submit">Anmelden →</button>
             <div class="status py-4">
               <div v-if="error">{{ error }}</div>
-              <div v-if="success">Yay!</div>
-              <div v-if="loading">Loading…</div>
+              <div v-if="success" class="font-bold">Yay 🎉🎉🎉<br>Morgen 6:00 kommt der erste Marktbericht 💚</div>
+              <div v-if="loading">Wait for it…</div>
             </div>
           </form>
         </template>
