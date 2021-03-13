@@ -4,7 +4,7 @@
     <div class="signup py-4">
 
       <mailchimp-subscribe
-        url="https://superfinfo.us12.list-manage.com/subscribe/post"
+        url="https://superfinfo.us12.list-manage.com/subscribe/post-json?u=17990761a9cf4f4ba7aa4d7da&amp;id=7767ea2372&amp;c=?"
         user-id="17990761a9cf4f4ba7aa4d7da"
         list-id="7767ea2372"
         @error="onError"

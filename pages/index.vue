@@ -22,7 +22,7 @@
 
       <div class="my-24">
         <span class="text-6xl font-bold font-serif block">“</span>
-        <quote>Mashallah, das ist der krasseste, heftigste, einfach ehrenhafteste Newsletter der Welt</quote>
+        <span>Mashallah, das ist der krasseste, heftigste, einfach ehrenhafteste Newsletter der Welt</span>
         <span class="text-gray-500 block text-right py-2">— jeder, immer, überall</span>
       </div>
 
