@@ -2,48 +2,32 @@
   <div>
     <h1 class="text-2xl font-bold">Melde dich bei finfo an 💸</h1>
     <div class="signup py-4">
-      <div id="mc_embed_signup_x">
-        <form action="https://superfinfo.us12.list-manage.com/subscribe/post?u=17990761a9cf4f4ba7aa4d7da&amp;id=7767ea2372" method="post" id="mc-embedded-subscribe-form_x" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-          <div id="mc_embed_signup_scroll_x">
 
-            <!-- enter email -->
-            <div class="mc-field-group inline-block">
-              <label class="hidden" for="mce-EMAIL">E-Mail </label>
-              <input
-                type="email"
-                value=""
-                name="EMAIL"
-                class="border rounded-lg py-2 px-2 focus:outline-none focus:ring shadow"
-                id="mce-EMAIL"
-                placeholder="deine@email.de"
-              >
+      <mailchimp-subscribe
+        url="https://superfinfo.us12.list-manage.com/subscribe/post"
+        user-id="17990761a9cf4f4ba7aa4d7da"
+        list-id="7767ea2372"
+        @error="onError"
+        @success="onSuccess"
+      >
+        <template v-slot="{ subscribe, setEmail, error, success, loading }">
+          <form @submit.prevent="subscribe">
+            <input
+              class="border rounded-lg py-2 px-2 focus:outline-none focus:ring shadow"
+              type="email"
+              placeholder="deine@email.de"
+              @input="setEmail($event.target.value)" />
+            <button
+              class="text-white bg-primary px-4 py-2 font-bold rounded-lg shadow focus:outline-none focus:ring"
+              type="submit">Anmelden →</button>
+            <div class="status py-4">
+              <div v-if="error">{{ error }}</div>
+              <div v-if="success">Yay!</div>
+              <div v-if="loading">Loading…</div>
             </div>
-
-            <!-- errors -->
-            <div id="mce-responses" class="clear inline-block">
-              <div class="response" id="mce-error-response" style="display:none"></div>
-              <div class="response" id="mce-success-response" style="display:none"></div>
-            </div>
-            
-            <!-- anti-spam -->
-            <div class="hidden" style="position: absolute; left: -5000px;" aria-hidden="true">
-              <input type="text" name="b_17990761a9cf4f4ba7aa4d7da_7767ea2372" tabindex="-1" value="">
-            </div>
-
-            <!-- submit -->
-            <div class="clear inline-block">
-              <input
-                class="text-white bg-primary px-4 py-2 font-bold rounded-lg shadow focus:outline-none focus:ring"
-                type="submit"
-                value="Anmelden →"
-                name="subscribe"
-                id="mc-embedded-subscribe_x">
-            </div>
-
-    
-          </div>
-        </form> 
-      </div>
+          </form>
+        </template>
+      </mailchimp-subscribe>
 
       <div class="py-4">
         <span class="font-bold">finfo</span> ist der tägliche Newsletter, der die Börse vereinfacht. Wir filtern den Müll raus und erklären das, was wirklich wichtig ist — kurz, knapp und unterhaltsam.
@@ -51,14 +35,29 @@
     </div>
   </div>
 </template>
+<script>
+import MailchimpSubscribe from 'vue-mailchimp-subscribe'
+
+export default {
+  components: {
+    MailchimpSubscribe
+  },
+  methods: {
+    onError() {
+      return;
+    },
+    onSuccess() {
+      return;
+    }
+  },
+}
+</script>
 
 <style scoped>
 input {   
-    /* Remove First */
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
- 
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 </style>
