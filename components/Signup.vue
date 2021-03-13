@@ -4,7 +4,7 @@
     <div class="signup py-4">
 
       <mailchimp-subscribe
-        url="https://superfinfo.us12.list-manage.com/subscribe/post-json?u=17990761a9cf4f4ba7aa4d7da&amp;id=7767ea2372&amp;c=?"
+        url="https://superfinfo.us12.list-manage.com/subscribe/post-json"
         user-id="17990761a9cf4f4ba7aa4d7da"
         list-id="7767ea2372"
         @error="onError"
@@ -15,6 +15,7 @@
             <input
               class="border rounded-lg py-2 px-2 focus:outline-none focus:ring shadow"
               type="email"
+              name="EMAIL"
               placeholder="deine@email.de"
               @input="setEmail($event.target.value)" />
             <button
