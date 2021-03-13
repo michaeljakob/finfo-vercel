@@ -10,6 +10,15 @@
     <div class="text-center max-w-2xl mx-auto">
       <nuxt />
     </div>
+
+    <footer
+        class="px-8 py-20 text-gray-300 text-sm"
+      >
+      <ul>
+        <li class="float-left p-4 px-8"><nuxt-link to="/impressum">Impressum</nuxt-link></li>
+        <li class="float-left p-4 px-8"><nuxt-link to="/datenschutz">Datenschutz</nuxt-link></li>
+      </ul>
+    </footer>
     
   </div>
 </template>
