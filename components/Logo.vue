@@ -1,10 +1,11 @@
 <template>
   <div
-    class=""
+    class="bg-primary py-2 w-full text-2xl text-white font-bold"
     >
-    <img
+    finfo
+    <!-- <img
       src="@/assets/images/finfo.svg"
-      alt="finfo Newsletter"/>
+      alt="finfo Newsletter"/> -->
   </div>
 </template>
 

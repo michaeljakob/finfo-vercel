@@ -14,7 +14,13 @@ export default {
         content: process.env.npm_package_description || '',
       },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.png' }],
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' },
+      { rel: 'stylesheet', type: 'text/css', href: '//cdn-images.mailchimp.com/embedcode/classic-10_7.css' }
+    ],
+
+
+
   },
   /*
    ** Customize the progress-bar color
@@ -23,7 +29,9 @@ export default {
   /*
    ** Global CSS
    */
-  css: [],
+  css: [
+    '~assets/css/tailwind.css'
+  ],
   /*
    ** Plugins to load before mounting the App
    */
