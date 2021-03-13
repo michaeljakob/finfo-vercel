@@ -1,14 +1,12 @@
 <template>
-  <div
-    class=""
-  >
+  <div>
     <div class="px-2">
 
       <Signup
         class="py-8" />
 
       <div class="text-center inline-block">
-        <h2 class="text-2xl font-bold text-primary">Jeden Morgen um 6:00<br>Nur das Wichtigste</h2>
+        <h2 class="text-2xl pb-4 font-bold text-primary">Jeden Morgen um 6:00<br>Nur das Wichtigste</h2>
         <!-- <img
           class="my-4"
           src="@/assets/images/sample.png"
@@ -16,7 +14,7 @@
           alt="finfo - der profitabelste Newsletter Deutschlands"
         /> -->
 
-        <video width="480" height="320" autoplay loop muted preload>
+        <video width="480" height="320" autoplay playsinline loop muted preload>
           <source src="@/assets/images/finfo-sample.mp4" type="video/mp4">
         </video>
 
@@ -31,11 +29,11 @@
       <Signup />
 
       <footer
-        class="px-8 mt-16 text-gray-300 text-sm"
+        class="px-8 py-20 text-gray-300 text-sm"
       >
         <ul>
-          <li class="float-left p-2"><nuxt-link to="/impressum">Impressum</nuxt-link></li>
-          <li class="float-left p-2"><nuxt-link to="/datenschutz">Datenschutz</nuxt-link></li>
+          <li class="float-left p-4 px-8"><nuxt-link to="/impressum">Impressum</nuxt-link></li>
+          <li class="float-left p-4 px-8"><nuxt-link to="/datenschutz">Datenschutz</nuxt-link></li>
         </ul>
       </footer>
 

@@ -33,7 +33,7 @@
             <!-- submit -->
             <div class="clear inline-block">
               <input
-                class="text-white bg-primary px-8 py-2 font-bold rounded-lg shadow focus:outline-none focus:ring"
+                class="text-white bg-primary px-4 py-2 font-bold rounded-lg shadow focus:outline-none focus:ring"
                 type="submit"
                 value="Anmelden →"
                 name="subscribe"
@@ -53,6 +53,12 @@
 </template>
 
 <style scoped>
-
+input {   
+    /* Remove First */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+ 
+}
 
 </style>
