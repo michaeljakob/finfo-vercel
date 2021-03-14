@@ -65,6 +65,8 @@
 
     MailChimp: MailChimp wird zum Versenden von personalisierten Newslettern versendet. MailChimp verwendet das Double-Opt-In-Verfahren, bei dem der Nutzer seine Email-Adresse bei der Anmeldung aktiv bestätigen muss.<br>
 
+    plausible.io: Plausible sammelt GDPR- und EU-Datenschutzkonform anonymisierte Informationen darüber, wie viele Personen sich auf unserer Webseite aufhalten.<br>
+
     <h3>Datensicherheit</h3>
     Wir setzen umfangreiche technische sowie organisatorische Sicherheitsmaßnahmen ein, um Ihre persönlichen Daten vor vorsätzlichen Manipulationen, Verlust oder dem Zugriff durch unautorisierte Dritte zu schützen. Diese werden im Rahmen der geltenden Datenschutzgesetze, entsprechend der technologischen Entwicklungen ständig verbessert. Dennoch möchten wir Sie darauf hinweisen, dass trotz unserer Sicherheitsmaßnahmen Informationen, welche Sie freiwillig über das Netz freigeben, von anderen genutzt werden können. So können wir bei Datenübertragungsfehlern sowie unautorisierten Zugriffen auf Ihre Daten durch Dritte keine Haftung übernehmen.<br>
 

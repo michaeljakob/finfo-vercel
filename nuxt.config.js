@@ -18,9 +18,9 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' },
       { rel: 'stylesheet', type: 'text/css', href: '//cdn-images.mailchimp.com/embedcode/classic-10_7.css' }
     ],
-
-
-
+    script: [
+      { src: 'https://plausible.io/js/plausible.js', async: 'async', defer: 'defer', 'data-domain': 'superfinfo.com' },
+    ]
   },
   /*
    ** Customize the progress-bar color
@@ -54,3 +54,4 @@ export default {
   },
   buildModules: ['@nuxtjs/tailwindcss']
 };
+
