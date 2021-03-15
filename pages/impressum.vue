@@ -1,6 +1,8 @@
 <template>
   <div class="text-left p-8">
     <h1 class="font-bold py-4">Impressum</h1>
+    
+    Inhaltlich verantwortlich gem. § 55 Staatsvertrag für Rundfunk und Telemedien (Rundfunk-Staatsvertrag) und Anbieter gem. § 5 Telemediengesetz (TMG) ist:<br>
     <div>
       finfo<br>
       z.Hd. Benjamin Franzil<br>
@@ -8,6 +10,13 @@
       Office 10.03<br>
       80809 München<br>
     </div>
+    <br><br>
+    <div>
+      benjamin@superfinfo.com<br>
+      +49 151 627 586 59 (Web-Administrator)
+    </div>
+
+
 
 
     <div class="my-24">
