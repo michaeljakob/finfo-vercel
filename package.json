@@ -1,9 +1,9 @@
 {
   "name": "finfo",
   "version": "1.0.0",
-  "description": "Der profitabelste Newsletter Deutschlands",
+  "description": "finfo - der profitabelste Newsletter Deutschlands",
   "author": "finfo",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt generate",

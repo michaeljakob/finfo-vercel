@@ -22,7 +22,7 @@
               class="text-white bg-primary px-4 py-2 font-bold rounded-lg shadow focus:outline-none focus:ring"
               type="submit">Anmelden →</button>
             <div class="status py-4">
-              <div v-if="error">{{ error }}</div>
+              <div v-if="error" v-html="error"></div>
               <div v-if="success">Yay 🎉🎉🎉<br>Bitte Email bestätigen. Wir haben dir gerade nen Link geschickt 💚</div>
               <div v-if="loading">Wait for it…</div>
             </div>

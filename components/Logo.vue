@@ -2,10 +2,11 @@
   <div
     class="bg-primary py-2 w-full text-2xl text-white font-bold"
     >
-    finfo
-    <!-- <img
-      src="@/assets/images/finfo.svg"
-      alt="finfo Newsletter"/> -->
+    <!-- finfo -->
+    <img
+      src="@/assets/images/finfo-white.svg"
+      class="w-24 mt-1 mx-auto"
+      alt="finfo Newsletter"/>
   </div>
 </template>
 
