@@ -5,9 +5,8 @@
     Inhaltlich verantwortlich gem. § 55 Staatsvertrag für Rundfunk und Telemedien (Rundfunk-Staatsvertrag) und Anbieter gem. § 5 Telemediengesetz (TMG) ist:<br>
     <div>
       finfo<br>
-      z.Hd. Benjamin Franzil<br>
+      z.Hd. Benjamin Franzil, Office 10.03<br>
       Helene-Mayer-Ring 4<br>
-      Office 10.03<br>
       80809 München<br>
     </div>
     <br><br>
