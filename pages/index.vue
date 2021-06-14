@@ -18,6 +18,14 @@
           <source src="@/assets/images/finfo-sample.mp4" type="video/mp4">
         </video>
 
+        
+
+        <a
+          href="https://us12.campaign-archive.com/home/?u=17990761a9cf4f4ba7aa4d7da&id=7767ea2372"
+          target="_blank"
+          class="inline-block text-white bg-gray-400 my-2 px-4 py-2 font-bold rounded-lg shadow focus:outline-none focus:ring"
+          >Unsere letzten finfos →</a>
+
       </div>
 
       <div class="my-24">
