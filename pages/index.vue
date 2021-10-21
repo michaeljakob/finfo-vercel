@@ -34,6 +34,39 @@
         <span class="text-gray-500 block text-right py-2">— jeder, immer, überall</span>
       </div>
 
+      <div class="podcast-banner my-2 bg-gray-50 mb-24 p-4 inline-block">
+        <div class="text-6xl my-4">🤯 🎉 🥳</div>
+        
+        <a
+          href="https://open.spotify.com/show/0lRbmuzSZJ80E7j3LHlbzA?si=44349451ca7f4cb8">
+          <img
+            src="@/assets/images/podcast-finfo-logo.png" />
+        </a>
+        <div class="my-4">
+          Jeden Wochentag um 6:00 auf Spotify, Apple, Amazon und Google Music
+        </div>
+
+        <div class="row">
+          <div class="column text-left">
+            <a
+              href="https://open.spotify.com/show/0lRbmuzSZJ80E7j3LHlbzA?si=44349451ca7f4cb8">
+              <img
+              class="h-10 inline-block mt-4"
+              src="@/assets/images/podcast-spotify.png" />
+            </a>
+          </div>
+          <div class="column">
+            <a
+              href="https://podcasts.apple.com/us/podcast/finfo-—-der-profitabelste-podcast-deutschlands/id1590822532">
+              <img
+              class="h-10 inline-block mt-4"
+              src="@/assets/images/podcast-apple.png" />
+            </a>
+          </div>
+        </div>
+
+      </div>
+
       <Signup />
 
     </div>
@@ -51,6 +84,13 @@ export default {
 </script>
 
 <style scoped>
-
-
+.podcast-banner {
+  max-width: 70%;
+}
+.row {
+  display: flex;
+}
+.column {
+  flex: 50%;
+}
 </style>
