@@ -4,15 +4,16 @@
     
     Inhaltlich verantwortlich gem. § 55 Staatsvertrag für Rundfunk und Telemedien (Rundfunk-Staatsvertrag) und Anbieter gem. § 5 Telemediengesetz (TMG) ist:<br>
     <div>
-      finfo<br>
-      z.Hd. Benjamin Franzil, Office 10.03<br>
+      AlleAktien GmbH<br>
+      Abteilung finfo<br>
       Helene-Mayer-Ring 4<br>
       80809 München<br>
     </div>
     <br><br>
     <div>
+      Benjamin Franzil<br>
       benjamin@superfinfo.com<br>
-      +49 151 627 586 59 (Web-Administrator)
+      +49 170 3141588 (Web-Administrator)
     </div>
 
 
