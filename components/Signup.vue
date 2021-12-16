@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1 class="text-4xl lg:text-5xl lg:max-w-xl leading-tight font-bold">{{ $t('heading') }}</h1>
-    <h2 class="py-8 max-w-md">Der 3-Minuten Newsletter mit erfrischenden Investment-Ideen für deinen rendite-erfüllten Start in den Tag 🚀</h2>
+    <h2 class="py-8 max-w-md">{{ $t('sub-heading') }}</h2>
 
     <div class="signup py-4">
       <mailchimp-subscribe
@@ -17,15 +17,15 @@
               class="border border-black rounded-lg py-2 px-2 focus:outline-none focus:ring shadow"
               type="email"
               name="EMAIL"
-              placeholder="deine@email.de"
+              :placeholder="$t('email-placeholder')"
               autofocus="autofocus"
               @input="setEmail($event.target.value)" />
             <button
               class="text-white bg-primary px-4 py-2 font-bold rounded-lg shadow focus:outline-none focus:ring"
-              type="submit">Anmelden →</button>
+              type="submit">{{ $t('signup-cta') }} →</button>
             <div class="status py-4">
               <div v-if="error" v-html="error"></div>
-              <div v-if="success">Yay 🎉🎉🎉<br>Bitte Email bestätigen. Wir haben dir gerade nen Link geschickt 💚</div>
+              <div v-if="success">{{ $t('signup-success-message') }}</div>
               <div v-if="loading">wait for it…</div>
             </div>
           </form>

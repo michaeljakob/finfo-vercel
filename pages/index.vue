@@ -16,29 +16,29 @@
       </div>
 
       <a
-        href="https://us12.campaign-archive.com/home/?u=17990761a9cf4f4ba7aa4d7da&id=7767ea2372"
+        :href="$t('link-finfo-archive')"
         target="_blank"
         class="table mx-auto text-white bg-gray-400 my-2 px-4 py-2 font-bold rounded-lg shadow focus:outline-none focus:ring cursor-pointer no-underline"
-        >Unsere letzten finfos →</a>
+        >{{ $t('latest-finfos') }} →</a>
 
       <div class="my-44 max-w-prose mx-auto">
         <span class="text-8xl font-bold font-serif block text-center">“</span>
-        <span class="text-2xl">Mashallah, das ist der krasseste, heftigste, einfach ehrenhafteste Newsletter der Welt</span>
-        <span class="text-2xl font-bold block text-right py-4">— jeder, immer, überall</span>
+        <span class="text-2xl">{{ $t('quote') }}</span>
+        <span class="text-2xl font-bold block text-right py-4">— {{ $t('quote-author') }}</span>
       </div>
 
       <div class="my-16 border-black border-8 mb-24 p-8 pt-4 text-center block max-w-prose mx-auto">
-        <div class="nr-one font-bold text-primary text-6xl lg:text-8xl my-8">#1 in Deutschland</div>
-        <div class="text-3xl my-4 font-bold">finfo als Podcast ziehen 🥳</div>
+        <div class="nr-one font-bold text-primary text-6xl lg:text-8xl my-8">{{ $t('podcast-nr-one') }}</div>
+        <div class="text-3xl my-4 font-bold">{{ $t('podcast-heading') }}</div>
         
         <div class="my-4">
-          Jeden Börsentag ab 6:00 auf Spotify &amp; Apple Podcasts ❤️
+          {{ $t("podcast-text") }}
         </div>
 
         <div class="row">
           <div class="column text-center">
             <a
-              href="https://open.spotify.com/show/0lRbmuzSZJ80E7j3LHlbzA?si=44349451ca7f4cb8">
+              :href="$t('podcast-link-spotify')">
               <img
               class="h-14 inline-block mt-4 px-1 md:px-0"
               src="@/assets/images/podcast-spotify.png" />
@@ -46,7 +46,7 @@
           </div>
           <div class="column text-center">
             <a
-              href="https://podcasts.apple.com/us/podcast/finfo-—-der-profitabelste-podcast-deutschlands/id1590822532">
+              :href="$t('podcast-link-apple')">
               <img
               class="h-14 inline-block mt-4 px-1 md:px-0"
               src="@/assets/images/podcast-apple.jpg" />

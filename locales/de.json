@@ -1,8 +1,32 @@
 {
   "htmltitle": "finfo - der profitabelste Newsletter Deutschlands",
+
   "heading": "Deine tägliche Dosis essenzieller Finanznews",
-  "sub-heading": "",
+  "sub-heading": "Der 3-Minuten Newsletter mit erfrischenden Investment-Ideen für deinen rendite-erfüllten Start in den Tag 🚀",
+  "signup-cta": "Anmelden",
   "email-placeholder": "deine@email.de",
+  "signup-success-message": "Yay 🎉🎉🎉<br>Bitte Email bestätigen. Wir haben dir gerade nen Link geschickt 💚",
+
+  "latest-finfos": "Unsere letzten finfos",
+  "link-finfo-archive": "https://us12.campaign-archive.com/home/?u=17990761a9cf4f4ba7aa4d7da&id=7767ea2372",
+
+  
+  "quote": "Mashallah, das ist der krasseste, heftigste, einfach ehrenhafteste Newsletter der Welt",
+  "quote-author": "jeder, immer, überall",
+  
+  "podcast-nr-one": "#1 in Deutschland",
+  "podcast-heading": "finfo als Podcast ziehen 🥳",
+  "podcast-text": "Jeden Börsentag ab 6:00 auf Spotify &amp; Apple Podcasts ❤️",
+  
+  "podcast-link-spotify": "https://open.spotify.com/show/0lRbmuzSZJ80E7j3LHlbzA?si=44349451ca7f4cb8",
+  "podcast-link-apple": "https://podcasts.apple.com/us/podcast/finfo-—-der-profitabelste-podcast-deutschlands/id1590822532",
+
+  "signup-cta-heading": "Gönn dir finfo 🚀",
+
+
+  "TBD____SUBSCRIPTION_LINK": "",
+
+
   "imprint": "Impressum",
   "privacy": "Datenschutz"
 }
