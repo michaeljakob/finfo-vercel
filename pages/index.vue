@@ -28,7 +28,7 @@
       </div>
 
       <div class="my-16 border-black border-8 mb-24 p-8 pt-4 text-center block max-w-prose mx-auto">
-        <div class="nr-one font-bold text-primary text-6xl lg:text-8xl my-8">{{ $t('podcast-nr-one') }}</div>
+        <div class="nr-one font-bold text-primary text-5xl lg:text-8xl my-8">{{ $t('podcast-nr-one') }}</div>
         <div class="text-3xl my-4 font-bold">{{ $t('podcast-heading') }}</div>
         
         <div class="my-4">
@@ -40,7 +40,7 @@
             <a
               :href="$t('podcast-link-spotify')">
               <img
-              class="h-14 inline-block mt-4 px-1 md:px-0"
+              class="h-8 sm:h-10 md:h-14 inline-block mt-4 px-1 md:px-0"
               src="@/assets/images/podcast-spotify.png" />
             </a>
           </div>
@@ -48,7 +48,7 @@
             <a
               :href="$t('podcast-link-apple')">
               <img
-              class="h-14 inline-block mt-4 px-1 md:px-0"
+              class="h-8 sm:h-10 md:h-14 inline-block mt-4 px-1 md:px-0"
               src="@/assets/images/podcast-apple.jpg" />
             </a>
           </div>
