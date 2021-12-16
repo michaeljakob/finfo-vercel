@@ -1,8 +1,10 @@
 <template>
-  <div class="text-left p-8">
-    <h1 class="font-bold py-4">Impressum</h1>
+  <div class="my-16 mx-2 max-w-2xl lg:mx-auto pre text-left">
+    <h1 class="text-4xl font-bold my-8">
+      {{ $t('imprint') }}
+    </h1>
     
-    Information Pursuant to § 5 TMG (German Telemedia Act):<br><br>
+    Inhaltlich verantwortlich gem. § 55 Staatsvertrag für Rundfunk und Telemedien (Rundfunk-Staatsvertrag) und Anbieter gem. § 5 Telemediengesetz (TMG) ist:<br><br>
     <div>
       AlleAktien GmbH<br>
       Department finfo<br>

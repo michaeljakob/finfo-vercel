@@ -1,5 +1,7 @@
+import i18n from './config/i18n';
+
 export default {
-  mode: 'spa',
+  ssr: false,
   /*
    ** Headers of the page
    */
@@ -39,6 +41,9 @@ export default {
       { src: 'https://plausible.io/js/plausible.js', async: 'async', defer: 'defer', 'data-domain': 'superfinfo.com' },
     ]
   },
+  i18n: {
+    baseUrl: 'https://superfinfo.com',
+  },  
   /*
    ** Customize the progress-bar color
    */
@@ -47,7 +52,7 @@ export default {
    ** Global CSS
    */
   css: [
-    '~assets/css/tailwind.css'
+    '~assets/css/main.css'
   ],
   /*
    ** Plugins to load before mounting the App
@@ -65,10 +70,52 @@ export default {
      ** You can extend webpack config here
      */
     extend(config, ctx) {},
+    postcss: {
+      plugins: {
+        tailwindcss: {},
+        autoprefixer: {},
+      },
+    },
   },
   server: {
     host: '0.0.0.0',
   },
-  buildModules: ['@nuxtjs/tailwindcss']
+  buildModules: [
+    '@nuxt/postcss8',
+    [
+      'nuxt-i18n',
+      {
+        vueI18nLoader: true,
+        defaultLocale: 'de',
+         locales: [
+          {
+            code: 'de',
+            name: 'Deutsch 🇩🇪'
+          },
+          {
+            code: 'en',
+            name: 'English 🇺🇸'
+          },
+          {
+            code: 'fr',
+            name: 'Français 🇫🇷'
+          },
+          {
+            code: 'es',
+            name: 'Español 🇪🇸'
+          },
+          {
+            code: 'it',
+            name: 'Italiano 🇮🇹'
+          },
+          {
+            code: 'nl',
+            name: 'Nederlands 🇳🇱'
+          },
+        ],
+        vueI18n: i18n
+      }
+     ]
+  ]
 };
 

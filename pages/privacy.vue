@@ -1,9 +1,9 @@
 <template>
-  <div class="m-4 max-w-2xl mx-auto pre">
-    <h1 class="text-4xl font-bold mb-4">
-      Datenschutz
+  <div class="my-16 mx-2 max-w-2xl lg:mx-auto pre text-left">
+    <h1 class="text-4xl font-bold my-8">
+      {{ $t('privacy') }}
     </h1>
-    <p>Stand: 13. März 2021</p>
+    <p class="py-8">16.12.2021</p>
     <h3>Verantwortlicher</h3>
     [siehe Impressum]<br><br>
 

@@ -2,3 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+a {
+  @apply underline;
+  @apply underline-offset-4;
+}

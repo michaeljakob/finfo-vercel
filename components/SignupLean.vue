@@ -1,9 +1,12 @@
 <template>
   <div>
-    <h1 class="text-4xl lg:text-5xl lg:max-w-xl leading-tight font-bold">{{ $t('heading') }}</h1>
-    <h2 class="py-8 max-w-md">Der 3-Minuten Newsletter mit erfrischenden Investment-Ideen für deinen rendite-erfüllten Start in den Tag 🚀</h2>
+    <!-- <h1 class="text-4xl lg:text-5xl lg:max-w-xl leading-tight font-bold">{{ $t('heading') }}</h1> -->
+    <!-- <h2 class="py-4 max-w-md">Der 3-Minuten Newsletter mit erfrischenden Investment-Ideen für deinen renditegefüllten Start in den Tag.</h2> -->
 
-    <div class="signup py-4">
+    <h2 class="text-3xl text-center font-bold py-8">Gönn dir finfo 🚀</h2>
+
+
+    <div class="signup py-4 text-center">
       <mailchimp-subscribe
         url="https://superfinfo.us12.list-manage.com/subscribe/post-json"
         user-id="17990761a9cf4f4ba7aa4d7da"
@@ -18,7 +21,6 @@
               type="email"
               name="EMAIL"
               placeholder="deine@email.de"
-              autofocus="autofocus"
               @input="setEmail($event.target.value)" />
             <button
               class="text-white bg-primary px-4 py-2 font-bold rounded-lg shadow focus:outline-none focus:ring"
@@ -31,10 +33,6 @@
           </form>
         </template>
       </mailchimp-subscribe>
-
-      <!-- <div class="py-4">
-        <span class="font-bold">finfo</span> ist der tägliche Newsletter, der die Börse vereinfacht. Wir filtern den Müll raus und erklären das, was wirklich wichtig ist — kurz, knapp und unterhaltsam.
-      </div> -->
     </div>
   </div>
 </template>
