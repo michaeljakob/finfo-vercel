@@ -81,7 +81,7 @@
         to="/"
         class="text-white bg-primary px-12 py-4 font-bold rounded-lg shadow focus:outline-none focus:ring"
       >
-        ← zurück zu finfo
+        ← {{ $t('back-to-finfo')}}
       </nuxt-link>
     </div>
   </div>

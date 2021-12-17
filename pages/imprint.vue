@@ -3,8 +3,7 @@
     <h1 class="text-4xl font-bold my-8">
       {{ $t('imprint') }}
     </h1>
-    
-    Inhaltlich verantwortlich gem. § 55 Staatsvertrag für Rundfunk und Telemedien (Rundfunk-Staatsvertrag) und Anbieter gem. § 5 Telemediengesetz (TMG) ist:<br><br>
+
     <div>
       AlleAktien GmbH<br>
       Department finfo<br>
@@ -12,7 +11,15 @@
       80809 Munich<br>
       Germany
     </div>
+    <br>
+    <div>
+      Commercial Registry: HRB269475<br>
+      Register Court: District Court Munich, Germany<br>
+      Chief Executive Officer: Michael C. Jakob<br>
+      VAT Identification Number: DE347360150<br>
+    </div>
     <br><br>
+    <h2 class="font-bold py-8">{{ $t('imprint-contact') }}</h2>
     <div>
       Benjamin S. Franzil<br>
       benjamin@superfinfo.com<br>
@@ -24,7 +31,7 @@
         to="/"
         class="text-white bg-primary px-12 py-4 font-bold rounded-lg shadow focus:outline-none focus:ring"
       >
-        ← zurück zu finfo
+        ← {{ $t('back-to-finfo')}}
       </nuxt-link>
     </div>
 
