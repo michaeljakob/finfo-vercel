@@ -92,10 +92,10 @@ export default {
             code: 'de',
             name: 'Deutsch 🇩🇪'
           },
-          {
-            code: 'en',
-            name: 'English 🇺🇸'
-          },
+          // {
+          //   code: 'en',
+          //   name: 'English 🇺🇸'
+          // },
           {
             code: 'fr',
             name: 'Français 🇫🇷'

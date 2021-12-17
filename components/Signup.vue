@@ -1,13 +1,13 @@
 <template>
   <div>
-    <h1 class="text-4xl lg:text-5xl lg:max-w-xl leading-tight font-bold">{{ $t('heading') }}</h1>
+    <h1 class="text-4xl lg:text-5xl lg:max-w-xl font-bold">{{ $t('heading') }}</h1>
     <h2 class="py-8 max-w-md">{{ $t('sub-heading') }}</h2>
 
     <div class="signup py-4">
       <mailchimp-subscribe
-        url="https://superfinfo.us12.list-manage.com/subscribe/post-json"
-        user-id="17990761a9cf4f4ba7aa4d7da"
-        list-id="7767ea2372"
+        :url="$t('mailchimp-url')"
+        :user-id="$t('mailchimp-user-id')"
+        :list-id="$t('mailchimp-list-id')"
         @error="onError"
         @success="onSuccess"
       >
@@ -31,10 +31,6 @@
           </form>
         </template>
       </mailchimp-subscribe>
-
-      <!-- <div class="py-4">
-        <span class="font-bold">finfo</span> ist der tägliche Newsletter, der die Börse vereinfacht. Wir filtern den Müll raus und erklären das, was wirklich wichtig ist — kurz, knapp und unterhaltsam.
-      </div> -->
     </div>
   </div>
 </template>

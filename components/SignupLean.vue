@@ -5,9 +5,9 @@
 
     <div class="signup py-4 text-center">
       <mailchimp-subscribe
-        url="https://superfinfo.us12.list-manage.com/subscribe/post-json"
-        user-id="17990761a9cf4f4ba7aa4d7da"
-        list-id="7767ea2372"
+        :url="$t('mailchimp-url')"
+        :user-id="$t('mailchimp-user-id')"
+        :list-id="$t('mailchimp-list-id')"
         @error="onError"
         @success="onSuccess"
       >
