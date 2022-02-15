@@ -27,7 +27,10 @@
         <span class="text-2xl font-bold block text-right py-4">— {{ $t('quote-author') }}</span>
       </div>
 
-      <div class="my-16 border-black border-8 mb-24 p-8 pt-4 text-center block max-w-prose mx-auto">
+      <div
+        v-if="hasPodcast"
+        class="my-16 mb-24 p-8 pt-4 text-center block max-w-prose mx-auto"
+      >
         <div class="nr-one font-bold text-primary text-5xl lg:text-8xl my-8">{{ $t('podcast-nr-one') }}</div>
         <div class="text-3xl my-4 font-bold">{{ $t('podcast-heading') }}</div>
         
@@ -70,6 +73,11 @@ export default {
   components: {
     Signup,
     SignupLean
+  },
+  computed: {
+    hasPodcast() {
+      return this.$i18n.locale == 'de';
+    }
   }
 }
 </script>
