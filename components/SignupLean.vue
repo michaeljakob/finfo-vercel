@@ -5,9 +5,9 @@
 
     <div class="signup py-4 text-center">
       <mailchimp-subscribe
-        url="https://superfinfo.us12.list-manage.com/subscribe/post-json"
-        user-id="17990761a9cf4f4ba7aa4d7da"
-        list-id="7767ea2372"
+        url="https://superfinfo.us20.list-manage.com/subscribe/post-json" 
+        user-id="7555d044ea1c0b314f3a14cbd" 
+        list-id="e999ae88a8"
         @error="onError"
         @success="onSuccess"
       >

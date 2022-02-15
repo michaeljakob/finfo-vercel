@@ -13,7 +13,7 @@
       > -->
       <!-- https://superfinfo.us20.list-manage.com/subscribe -->
       <mailchimp-subscribe
-        url="https://superfinfo.us20.list-manage.com/subscribe" 
+        url="https://superfinfo.us20.list-manage.com/subscribe/post-json" 
         user-id="7555d044ea1c0b314f3a14cbd" 
         list-id="e999ae88a8"
         @error="onError"
