@@ -61,13 +61,13 @@ export default {
       switch(language) {
         case 'nl':
           return {
-            link: 'https://superfinfo.us20.list-manage.com/subscribe/post-json',
+            url: 'https://superfinfo.us20.list-manage.com/subscribe/post-json',
             user: '7555d044ea1c0b314f3a14cbd',
             list: 'e999ae88a8',
           };
         default: // de
           return {
-            link: 'https://superfinfo.us12.list-manage.com/subscribe/post-json',
+            url: 'https://superfinfo.us12.list-manage.com/subscribe/post-json',
             user: '17990761a9cf4f4ba7aa4d7da',
             list: '7767ea2372',
           };
