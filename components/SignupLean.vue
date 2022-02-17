@@ -5,9 +5,9 @@
 
     <div class="signup py-4 text-center">
       <mailchimp-subscribe
-        url="https://superfinfo.us20.list-manage.com/subscribe/post-json" 
-        user-id="7555d044ea1c0b314f3a14cbd" 
-        list-id="e999ae88a8"
+        :url="mailchimp().url" 
+        :user-id="mailchimp().user" 
+        :list-id="mailchimp().list"
         @error="onError"
         @success="onSuccess"
       >
@@ -46,6 +46,22 @@ export default {
     },
     onSuccess() {
       return;
+    },
+    mailchimp() {
+      switch(language) {
+        case 'nl':
+          return {
+            link: 'https://superfinfo.us20.list-manage.com/subscribe/post-json',
+            user: '7555d044ea1c0b314f3a14cbd',
+            list: 'e999ae88a8',
+          };
+        default: // de
+          return {
+            link: 'https://superfinfo.us12.list-manage.com/subscribe/post-json',
+            user: '17990761a9cf4f4ba7aa4d7da',
+            list: '7767ea2372',
+          };
+      }
     }
   },
 }
