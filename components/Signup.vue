@@ -57,6 +57,7 @@ export default {
       return;
     },
     mailchimp() {
+      const language = this.$i18n.locale;
       switch(language) {
         case 'nl':
           return {
