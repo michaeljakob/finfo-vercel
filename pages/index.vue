@@ -78,7 +78,12 @@ export default {
     hasPodcast() {
       return this.$i18n.locale == 'de';
     }
-  }
+  },
+  head() {
+    return {
+      title: this.$t('htmltitle'),
+    }
+  },
 }
 </script>
 
