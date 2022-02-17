@@ -92,22 +92,22 @@ export default {
             code: 'de',
             name: 'Deutsch 🇩🇪'
           },
-          {
-            code: 'en',
-            name: 'English 🇺🇸'
-          },
-          {
-            code: 'fr',
-            name: 'Français 🇫🇷'
-          },
-          {
-            code: 'es',
-            name: 'Español 🇪🇸'
-          },
-          {
-            code: 'it',
-            name: 'Italiano 🇮🇹'
-          },
+          // {
+          //   code: 'en',
+          //   name: 'English 🇺🇸'
+          // },
+          // {
+          //   code: 'fr',
+          //   name: 'Français 🇫🇷'
+          // },
+          // {
+          //   code: 'es',
+          //   name: 'Español 🇪🇸'
+          // },
+          // {
+          //   code: 'it',
+          //   name: 'Italiano 🇮🇹'
+          // },
           {
             code: 'nl',
             name: 'Nederlands 🇳🇱'
