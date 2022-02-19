@@ -100,10 +100,10 @@ export default {
             code: 'fr',
             name: 'Français 🇫🇷'
           },
-          // {
-          //   code: 'es',
-          //   name: 'Español 🇪🇸'
-          // },
+          {
+            code: 'es',
+            name: 'Español 🇪🇸'
+          },
           {
             code: 'it',
             name: 'Italiano 🇮🇹'
