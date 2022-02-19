@@ -10,7 +10,7 @@
         <div class="inline-block">
           <img
             class="my-4 lg:hidden"
-            src="@/assets/images/finfo-embedded-1.jpg"
+            src="@/assets/images/finfo-header-de.png"
           />
         </div>
       </div>
@@ -31,7 +31,7 @@
         v-if="hasPodcast"
         class="my-16 mb-24 p-8 pt-4 text-center block max-w-prose mx-auto"
       >
-        <div class="nr-one font-bold text-primary text-5xl lg:text-8xl my-8">{{ $t('podcast-nr-one') }}</div>
+        <div class="font-bold text-primary text-5xl lg:text-8xl my-8">{{ $t('podcast-nr-one') }}</div>
         <div class="text-3xl my-4 font-bold">{{ $t('podcast-heading') }}</div>
         
         <div class="my-4">
@@ -95,13 +95,9 @@ export default {
   flex: 50%;
 }
 
-.nr-one {
-
-}
-
 @media screen and (min-width: 1024px) {
   #headerbox {
-    background-image: url(https://www.alleaktien.de/wp-content/uploads/2021/12/finfo-embedded-1.jpg);
+    background-image: url(https://superfinfo.com/finfo-header-de.png);
     background-position: right bottom;
     background-size: auto 90%;
     background-repeat: no-repeat;
