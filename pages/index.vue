@@ -2,7 +2,11 @@
   <div>
     <div class="px-2">
 
-      <div id="headerbox" class="py-8 lg:py-16">
+      <div
+        id="headerbox"
+        class="py-8 lg:py-16"
+        :class="'lang-' + this.$i18n.locale"
+      >
         <Signup
           class="py-8 inline-block"
         />
@@ -10,7 +14,7 @@
         <div class="inline-block">
           <img
             class="my-4 lg:hidden"
-            src="@/assets/images/finfo-header-de.png"
+            :src="`https://superfinfo.com/finfo-header-${this.$i18n.locale}.png`"
           />
         </div>
       </div>
@@ -79,6 +83,8 @@ export default {
       return this.$i18n.locale == 'de';
     }
   },
+  methods: {
+  },
   head() {
     return {
       title: this.$t('htmltitle'),
@@ -87,7 +93,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .row {
   display: flex;
 }
@@ -97,10 +103,25 @@ export default {
 
 @media screen and (min-width: 1024px) {
   #headerbox {
-    background-image: url(https://superfinfo.com/finfo-header-de.png);
     background-position: right bottom;
     background-size: auto 90%;
     background-repeat: no-repeat;
+
+    &.lang-de {
+      background-image: url(https://superfinfo.com/finfo-header-de.png);
+    }
+    &.lang-nl {
+      background-image: url(https://superfinfo.com/finfo-header-nl.png);
+    }
+    &.lang-es {
+      background-image: url(https://superfinfo.com/finfo-header-es.png);
+    }
+    &.lang-fr {
+      background-image: url(https://superfinfo.com/finfo-header-fr.png);
+    }
+    &.lang-it {
+      background-image: url(https://superfinfo.com/finfo-header-it.png);
+    }
   }
 }
 </style>
