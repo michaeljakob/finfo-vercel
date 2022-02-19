@@ -65,6 +65,24 @@ export default {
             user: '7555d044ea1c0b314f3a14cbd',
             list: 'e999ae88a8',
           };
+        case 'fr':
+          return {
+            url: 'https://superfinfo.us20.list-manage.com/subscribe/post-json',
+            user: '7555d044ea1c0b314f3a14cbd',
+            list: '589c42b7a2',
+          };
+        case 'it':
+          return {
+            url: 'https://superfinfo.us20.list-manage.com/subscribe/post-json',
+            user: '7555d044ea1c0b314f3a14cbd',
+            list: '007a207636',
+          };
+        case 'es':
+          return {
+            url: 'https://superfinfo.us20.list-manage.com/subscribe/post-json',
+            user: '7555d044ea1c0b314f3a14cbd',
+            list: '23abb4aeea',
+          };
         default: // de
           return {
             url: 'https://superfinfo.us12.list-manage.com/subscribe/post-json',

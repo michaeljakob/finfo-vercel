@@ -96,18 +96,18 @@ export default {
           //   code: 'en',
           //   name: 'English 🇺🇸'
           // },
-          // {
-          //   code: 'fr',
-          //   name: 'Français 🇫🇷'
-          // },
+          {
+            code: 'fr',
+            name: 'Français 🇫🇷'
+          },
           // {
           //   code: 'es',
           //   name: 'Español 🇪🇸'
           // },
-          // {
-          //   code: 'it',
-          //   name: 'Italiano 🇮🇹'
-          // },
+          {
+            code: 'it',
+            name: 'Italiano 🇮🇹'
+          },
           {
             code: 'nl',
             name: 'Nederlands 🇳🇱'
