@@ -21,8 +21,8 @@
     <br><br>
     <h2 class="font-bold py-8">{{ $t('imprint-contact') }}</h2>
     <div>
-      Benjamin S. Franzil<br>
-      benjamin@superfinfo.com<br>
+      Partnerschaftsanfragen<br>
+      info@superfinfo.com<br>
       +49 170 3141588
     </div>
 

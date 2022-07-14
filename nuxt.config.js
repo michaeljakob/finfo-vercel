@@ -31,7 +31,7 @@ export default {
       { property: 'og:site_name', content: 'finfo' },
       // general
       { name: 'description', content: `finfo - der profitabelste Newsletter Deutschlands` },
-      { name: 'keywords', content: `finfo, superfinfo, aktien newsletter, alleaktien news, benjamin finfo, benjamin alleaktien, super finfo, aktien täglicher Newsletter, alleaktien newsletter, aktien newsletter memes` },
+      { name: 'keywords', content: `finfo, superfinfo, aktien newsletter, alleaktien news, finfo, alleaktien, super finfo, aktien täglicher Newsletter, alleaktien newsletter, aktien newsletter memes` },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/finfo-green.png' },

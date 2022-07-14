@@ -3,11 +3,11 @@
     <h1 class="text-4xl font-bold my-8">
       {{ $t('privacy') }}
     </h1>
-    <p class="py-8">16.12.2021</p>
+    <p class="py-8">01.06.2022</p>
     <h3>Verantwortlicher</h3>
     [siehe Impressum]<br><br>
 
-    Kontaktperson für Anliegen rund um den Datenschutz: Benjamin Franzil (Kontaktaufnahme per Email über benjamin@superfinfo.com)<br><br>
+    Kontaktperson für Anliegen rund um den Datenschutz: info@superfinfo.com<br><br>
 
     Wenn Sie Dienste von finfo nutzen, vertrauen Sie uns Ihre Daten an. Wir sind uns der großen Verantwortung bewusst und setzen alles daran, den Schutz Ihrer Daten zu gewährleisten und Ihnen die Kontrolle über Ihre Daten zu geben.<br><br>
 
@@ -50,7 +50,7 @@
     - Recht auf Einschränkung der Verarbeitung (Art. 18f. DSGVO)<br>
     - Recht auf Datenübertragbarkeit (Art. 20 DSGVO)<br>
     - Widerspruchsrecht (Art. 21 DSGVO)<br><br>
-    Bitte beachten Sie, dass wir bei derartigen Anfragen sicherstellen müssen, dass es sich tatsächlich um die betroffene Person handelt. Ihre Rechte können Sie wie folgt geltend ausüben: Entweder schreiben Sie uns per Post (siehe Impressum) oder Sie schreiben uns eine Email an benjamin@superfinfo.com.<br>
+    Bitte beachten Sie, dass wir bei derartigen Anfragen sicherstellen müssen, dass es sich tatsächlich um die betroffene Person handelt. Ihre Rechte können Sie wie folgt geltend ausüben: Entweder schreiben Sie uns per Post (siehe Impressum) oder Sie schreiben uns eine Email an info@superfinfo.com.<br>
 
 
     <h3>Cookies</h3>
